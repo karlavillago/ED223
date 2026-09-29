@@ -15,14 +15,40 @@ numeros.append(60)
 #imprime los numeros
 print(numeros)
 
-#eliminar un valor del arreglo con pop en la posicion 1 que es el 20
+#eliminar  con pop en la posicion 1 que es el 20
 numeros.pop(1)
 print(numeros)
 
-#eliminamos por el valor 30
+#removemos el 30, eliminamos por valor
 numeros.remove(30)
 print(numeros)
 
-frutas=["mango","manzana","uva","pera"]
+frutas=["mango","manzana","uva","pera","maracuya"]
+
+#eliminamos por valor eliminamos uva
 frutas.remove("uva")
 print(frutas)
+
+#eliminamos maracuya
+frutas.pop(3)
+print(frutas)
+
+#append
+frutas.append("chocolate")
+print(frutas)
+
+#para modificar un valor
+frutas[2]="fresa"
+print(frutas)
+
+#declarar un arreglo vacio
+arreglo=[]
+
+#ingrsar el tama;o del arreglo
+#input 
+#se puso el 1 
+arreglo=[]
+n = int(input("ingrese la longitud del arreglo:"))
+n1=int(input("ingresa el valor 0"))
+arreglo.append(n1)
+print(arreglo)
