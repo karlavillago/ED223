@@ -17,4 +17,4 @@ numeros = [10, 20, 30, 40]
 numeros.insert(2, 95)
 numeros.extend([50, 67])
 
-print(numeros)
+print(numeros) #trabajo de clase
